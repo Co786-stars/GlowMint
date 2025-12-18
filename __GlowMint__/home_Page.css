@@ -1,0 +1,91 @@
+/*Reset default marging and Padding*/
+html, body { 
+
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	/*overflow-x: hidden;*/
+ }		
+
+/*header navbar that contain the whole item */
+#topheader {
+	margin: 0px;
+	padding:15px 0px 15px 0px;
+	/*border-top:5px solid green;*/
+	/*border-bottom:5px solid green;	*/
+	width: 100%;
+	background-image: url('Beauti_icon.png');
+	background-size: 4%;
+	background-repeat: no-repeat;
+	background-position: 8px, center;
+	background-color:gainsboro ;
+	outline: 3px solid black;
+
+ }
+
+
+/*Navigation list*/
+#navitm {
+	display:inline-flex;
+	align-items: center;
+	/*border: 2px solid red;*/
+	justify-content: space-evenly;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	width:100%;	
+}
+
+
+/* Navigation itms*/
+li {
+	font-family: Georgia, serif;    /* verdana, san-serif */
+	font-weight:bold ;
+	color:deeppink;
+	/*border: 2px solid black;*/
+
+ }
+
+/*Hover of effect for nav item*/
+li:hover {
+	border-bottom: 5px solid deeppink;
+
+}
+
+
+/*Anchor links [Nevigation items]*/
+#hitm {
+	text-decoration: none;
+	color: deeppink;
+	padding: 10px 30px;
+
+}
+
+
+/*#hitm:hover {
+
+}*/
+
+/* Search bar styling */
+input[type=text] {
+	color:red;
+	padding: 3px 3px 3px 35px;
+	background-image: url('search_icon.png');
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 4px 2px;
+	background-color: gainsboro;
+	border: none;
+	outline: none;
+	width: 200px;
+	transition: width 0.3s ease ;
+}
+
+
+/*Focus effect of search bar*/
+input[type=text]:focus {
+	width: 400px;
+
+
+}
+
