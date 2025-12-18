@@ -20,19 +20,19 @@ ________________________________________________________________________________
 <!-- This section clearly describes our website and highlights the products we provide -->
 <h6>
 
-🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎
+🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎<br>
 GlowMint is a next-generation cosmetic brand dedicated to handcrafted beauty, customizable shades, and natural blends for every occasion. Our range includes glow creams, dark-spot removers, lipsticks, ayurvedic soaps, and herbal skincare solutions designed to enhance radiance and confidence.<br><br>
 
 
-🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎
+🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎<br>
 We combine modern cosmetic innovation with traditional ayurvedic wisdom, ensuring products that are safe, effective, and tailored to every skin type. GlowMint stands for purity, wellness, and individuality—helping people express their beauty through sustainable and personalized products.<br><br>
 
 
-🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎
+🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎<br>
 Beyond daily skincare, GlowMint offers premium collections that empower individuals to embrace their natural glow and shine with confidence. From lipsticks to herbal blends, our products are crafted to meet diverse beauty needs.<br><br>
 
 
-🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎 
+🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎<br>
 GlowMint is more than a brand—it is a trusted partner in self-care, wellness, and beauty, delivering products that inspire confidence and celebrate individuality.<br><br>
 
 </h6>
