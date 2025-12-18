@@ -1,4 +1,4 @@
-# 🍊🍊 GlowMint 🍊🍊
+# 🍊🍊🍊 GlowMint 🍊🍊🍊
 
 <strong>
 GlowMint is a modern cosmetic brand offering handcrafted beauty products, customizable shades, and natural blends.  
