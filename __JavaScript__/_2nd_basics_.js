@@ -1,4 +1,4 @@
-alert("Hello from the 2nd basics JavaScript file!");
+// alert("Hello from the 2nd basics JavaScript file!");
 // A function that displays a pop-up message box with an OK button, pausing code execution until the user clicks OK.
 // It's mostly used for quick testing or very simple warnings in code.
 
