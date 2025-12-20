@@ -234,4 +234,25 @@ What is the difference between compiler and transpiler?
 What is the file extension of transpiled and JavaScript files?
 - Transpiled files usually have the same extension as the target language. For example, TypeScript files have a .ts extension, but after transpilation to JavaScript, they become .js files.
 - JavaScript files have a .js extension.
+
+How to lik javascript file in html?
+- You can link a JavaScript file in an HTML document using the <script> tag with the src attribute. For example:
+  <script src="path/to/yourfile.js"></script>
+
+Where is the place to link javascript file in html?
+- You can link a JavaScript file in the <head> section or just before the closing </body> tag of your HTML document. 
+  Placing it before </body> is often preferred to ensure that the HTML content loads before the script runs.
+
+- Example where we can link javascript file in html:
+  -------------------------------------------------
+  <head>
+    <script src="path/to/yourfile.js"></script>
+  </head>
+  ------------------------------------------------
+  <body>
+    <!-- HTML content -->
+    <script src="path/to/yourfile.js"></script>
+  </body>
+  -------------------------------------------------
+
 */
