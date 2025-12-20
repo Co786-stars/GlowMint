@@ -134,42 +134,42 @@ Why these restrictions exist?
 What makes JavaScript unique?
 
 - Full integration with HTML and CSS
-  • The only language that natively manipulates the DOM and styles
-  • Enables dynamic, interactive web pages
+    • The only language that natively manipulates the DOM and styles
+    • Enables dynamic, interactive web pages
 
 - Simple for beginners, powerful for experts
-  • Easy to learn for small scripts
-  • Scales up to complex apps like Google Maps, Facebook, or Netflix
+    • Easy to learn for small scripts
+    • Scales up to complex apps like Google Maps, Facebook, or Netflix
 
 - Universal browser support 
-  • Runs in all modern browsers without plugins
-  • Works instantly when embedded in HTML
+    • Runs in all modern browsers without plugins
+    • Works instantly when embedded in HTML
 
 - Safe execution environment
-  • Sandboxed to prevent harm to the user’s computer
-  • Built-in restrictions ensure security
+    • Sandboxed to prevent harm to the user’s computer
+    • Built-in restrictions ensure security
 
 - Dual environment capability 
-  • Same language works in browser (client-side) and server (Node.js)
-  • Enables full-stack development with one language
+    • Same language works in browser (client-side) and server (Node.js)
+    • Enables full-stack development with one language
 
 - Massive ecosystem 
-  • Rich libraries and frameworks (React, Angular, Vue, Express)
-  • Huge community and open-source support
+    • Rich libraries and frameworks (React, Angular, Vue, Express)
+    • Huge community and open-source support
 
 - Constantly evolving
-  • ECMAScript standards add new features every year
-  • Modern JavaScript supports async/await, modules, classes, and more
+    • ECMAScript standards add new features every year
+    • Modern JavaScript supports async/await, modules, classes, and more
 
 - Beyond the browser 
-  • Runs on servers, databases (MongoDB shell), mobile apps, and IoT devices
-  • Powers desktop apps (Electron), cross-platform frameworks, and smart devices
+    • Runs on servers, databases (MongoDB shell), mobile apps, and IoT devices
+    • Powers desktop apps (Electron), cross-platform frameworks, and smart devices
+
 
 Why these matter:
 - JavaScript is the "Swiss Army knife" of web technologies
 - Combines accessibility, versatility, and power in one language
 - That’s why it remains the number one language for web development worldwide
-
 
 
 
@@ -226,5 +226,12 @@ Why use another language over JavaScript?
   Compiler → Converts high-level code into machine code (binary) for the computer(HLL → LLL)/(e.g. C++ → machine code).
   Interpreter → Runs code line by line directly, without converting to another language(line by line execution) .
 
-*/
+What is the difference between compiler and transpiler?
+- A compiler translates high-level programming language (HLL) code into low-level machine code (LLL) that the computer's processorcan execute directly.
+- A transpiler converts one high-level programming language (HLL) into another HLL (e.g., TypeScript → JavaScript, Flow → JavaScript, Brython → JavaScript).
 
+
+What is the file extension of transpiled and JavaScript files?
+- Transpiled files usually have the same extension as the target language. For example, TypeScript files have a .ts extension, but after transpilation to JavaScript, they become .js files.
+- JavaScript files have a .js extension.
+*/
