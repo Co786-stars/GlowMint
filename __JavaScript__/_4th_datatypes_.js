@@ -1,5 +1,5 @@
 /*
-What is data types in JavaScript?
+What is datatypes in JavaScript?
 - Data types are the classification or categorization of data items. They determine the type of data that can be stored 
   and manipulated within a program.
 
