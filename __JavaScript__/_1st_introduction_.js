@@ -39,7 +39,7 @@ JavaScript engines:
 
 Why remember these names?
 - These codenames often appear in developer articles and performance benchmarks.
-- Example: If a feature is supported by V8, it will likely work in Chrome, Opera, and Edge.
+- Example: If a feature is supported by V8, it will likely work in Chrome,  Opera, and Edge.
 - Hidden detail: Engines evolve separately, so a new feature may appear in one engine months before others.
   That’s why developers often check compatibility tables (like MDN or "Can I Use") before using modern JS features.
 
@@ -92,7 +92,6 @@ Note:
 
 
 
-
 What in-browser JavaScript cannot do?
 
 - No direct file system access
@@ -128,7 +127,6 @@ Why these restrictions exist?
 - To protect user safety, privacy, and system integrity
 - Prevent malicious websites from stealing data or harming your computer
 - These limitations apply only to browser JavaScript (Node.js has different capabilities)
-
 
 
 What makes JavaScript unique?
@@ -255,4 +253,13 @@ Where is the place to link javascript file in html?
   </body>
   -------------------------------------------------
 
+
+How to clear Tracking Prevention Console Message/Warnings when running JavaScript files locally?
+- In some browsers like Safari and Firefox, you might see a warning in the console about "Tracking Prevention" 
+  or similar messages to clear prevention tracking data when running JavaScript files locally (file:// protocol).
+- This is a security feature to prevent malicious scripts from accessing sensitive data on your computer.
+- To avoid these warnings, you can:
+    • Run your HTML and JavaScript files through a local web server (e.g., using Live Server extension in VSCode).
+    • Adjust browser settings to allow local file access (not recommended for security reasons).
+    • To clear tracking prevention data, we use ctrl+l in window and cmd+k in mac to clear console data.
 */
