@@ -25,3 +25,4 @@ Important note:
   is where the messages from console.log() appear. Regular visitors to the site do not see it.
 
 */
+alert("Hello world");

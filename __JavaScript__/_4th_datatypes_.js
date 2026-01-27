@@ -36,6 +36,8 @@ summary:
 - Primitive data types include Number, String, Boolean, Undefined, Null, Symbol, and BigInt.
 - Non-Primitive data types include Object, Array, Function, Date, and RegExp.
 - Understanding these datatypes is crucial for effective programming in JavaScript, as they influence how data is stored, manipulated, and compared.
+- There are seven primitive data types in JavaScript: Number, String, Boolean, Undefined, Null, Symbol, and BigInt.
+- Non-primitive data types include Object, Array, Function, Date, and RegExp.
 
 
 Important notes (js/python about tuple):-💫
@@ -91,17 +93,23 @@ console.log(n);
 let sym = Symbol("id"); 
 console.log(sym);
 
+// BigInt
+let bigIntNum = 9007199254740991n; 
+console.log(bigIntNum);
+
 
 
 
 //🍏Object Declaration(Non-Premetive/Mutable)🍏 
+// Object is a collection of key-value pairs 
 const myvar = {
   fName:"wizard",
   roll: 123,
   avMarks: 32.5,
   isPass: false 
 }; // example of object datatype
-console.log(myvar["avMarks"]);  
+console.log(myvar["avMarks"]); // accessing the value of object datatype
+console.log(myvar.fName);   // another way to access the value of object datatype
 console.log(myvar) 
 
 // basic operations on value of object datatype
@@ -209,4 +217,25 @@ console.log(formatted); // "21/12/2025" → months are 0-based (January = 0).
 let regex = /[0-9]+/;   // matches one or more digits
 console.log(regex.test("abc123"));   // true
 console.log(regex.exec("abc123"));   // ["123"]
+
+
+
+/* 
+
+Summary of let and const differences --VVI--:
+- var is function-scoped, while let and const are block-scoped.
+- let can be updated but not redeclared.
+- const cannot be updated or redeclared.
+  But if const is used with objects/arrays , their properties/elements can be updated/changed.
+  means const variable is object/array reference cannot be changed but their content can be changed.
+- example:
+  const obj = {a: 1, b: 2};
+  obj.a = 3; // allowed
+  obj = {c: 4}; // error
+
+When we use const and let?
+- Use let when you need to reassign a variable later.
+- Use const when you want to prevent reassignment.
+- Use const by default, and only use let if you know the variable's value will change.
+*/
 

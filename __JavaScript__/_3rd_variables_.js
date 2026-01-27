@@ -94,3 +94,4 @@ EXTAR NOTE : -
 - In strict mode, if you try to assign a value to a variable that hasn't been declared 
   with var, let, or const, it will throw an error.
 */
+
