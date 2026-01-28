@@ -201,35 +201,37 @@ console.log("_next_ value _x", _x); // 12
 
 // EXTRA---------------EXTRA---------EXTRA---------EXTRA---------EXTRA------------EXTRA-------EXTRA--------
 /*
-Compare loose equality (==) and strict equality (===) operators in JavaScript with examples?
+- Compare loose equality (==) and strict equality (===) operators in JavaScript with examples?
+   loose Equality (==) is known as equality operator/equal to
+   strict Equality (===) is known as identity operator/ strict equal to
+   loose Inequality (!=) is known as not equal operator/ not equal to
+   strict Inequality (!==) is known as not identity operator/ strict not equal to
 
-loose Equality (==) is known as equality operator/equal to
-strict Equality (===) is known as identity operator/ strict equal to
-loose Inequality (!=) is known as not equal operator/ not equal to
-strict Inequality (!==) is known as not identity operator/ strict not equal to
+- The main difference between loose equality (==) and strict equality (===) operators in JavaScript lies in 
+  how they compare values :-
 
-The main difference between loose equality (==) and strict equality (===) operators in JavaScript lies in 
-how they compare values :-
-
-// Example 1: Loose Equality (==)
-console.log(5 == "5");   // true
-// The values are the same, but the types are different (number vs string).
-// == converts "5" into a number before comparing, so it returns true.
-
-// Example 2: Strict Equality (===)
-console.log(5 === "5");  // false
-// The values look the same, but the types are different.
-// === does not convert types, so it returns false.
-
-// Example 3: Loose Inequality (!=)
-console.log(5 != "5");   // false
-// The values are the same after type conversion,
-// so != returns false.
-
-// Example 4: Strict Inequality (!==)
-console.log(5 !== "5");  // true
-// The values are the same, but the types are different.
-// !== checks both value and type, so it returns true.
-
-*/
+ * Loose Equality (==) is known as equality operator/equal to
+ * Strict Equality (===) is known as identity operator/strict equal to
+ * 
+ * Loose Inequality (!=) is known as not equal operator/not equal to
+ * Strict Inequality (!==) is known as not identity operator/strict not equal to
+ *
+ * The main difference between loose equality (==) and strict equality (===) operators in JavaScript lies in how they compare values:
+ *
+ * Loose Equality (==):
+ * - Performs type coercion if the operands are of different types.
+ * - Converts the operands to the same type before comparing.
+ *
+ * Strict Equality (===):
+ * - Does not perform type coercion.
+ * - Compares both the value and the type of the operands.
+ *
+ * Examples:
+ *
+ * Loose Equality:
+ * console.log(5 == "5"); // true, because "5" is converted to 5 before comparison
+ *
+ * Strict Equality:
+ * console.log(5 === "5"); // false, because 5 is a number and "5" is a string
+ */
 
