@@ -26,6 +26,9 @@ summary :
 - var variables are function-scoped, meaning they are accessible within the function they are declared in.
 - let and const variables are block-scoped, meaning they are only accessible within the block (enclosed by {}) they are declared in.
 - const variables must be initialized at the time of declaration and cannot be reassigned later.
+- let variables can be declared without initialization and can be reassigned later.
+- let and const were introduced in ES6 (ECMAScript 2015) to provide better scoping rules compared to var.
+- let variables can be updated but not redeclared in the same scope, while const variables cannot be updated or redeclared.
 
 Simple way to remember:
 - var = function scope, can be redeclared and updated.

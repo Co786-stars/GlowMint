@@ -22,7 +22,6 @@ When strict mode is enabled, it changes the behavior of JavaScript in several wa
 3. Prohibiting certain syntax likely to be defined in future versions of ECMAScript.
 Example of using "use strict":
 */
-
 "use strict";  // Enabling strict mode. It helps catch common coding mistakes and "unsafe" actions such as defining global variables unintentionally.
 myVar = 15.10; // Remember, "use strict mode"  needs to put at the top of the file to work for entire file or top of function to work inside function only 
 console.log(myVar);
