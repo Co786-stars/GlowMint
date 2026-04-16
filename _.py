@@ -1,6 +1,21 @@
-if 8 > 5:
-    print("8 is greater than 5")
-else:
-    print("5 is greater than or equal to 8")
+#!/bin/python3
 
-# _______________________
+import math
+import os
+import random
+import re
+import sys
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if n%2 != 0:
+        var = "Weird"
+    elif n%2 == 0 and n>=2 and n<=5:
+        var = "Not Weird"
+    elif n%2 == 0 and n>=6 and n<=20:
+        var = "Weird"
+    else:
+        var = "Not Weird"
+    print(var)
+    
