@@ -1,0 +1,59 @@
+/* Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+/* Header */
+#topheader {
+    padding: 15px 0;
+    width: 100%;
+    background: gainsboro url("img/logo.png") no-repeat 8px center;
+    background-size: 4%;
+    outline: 3px solid black;
+}
+
+/* Navigation */
+#navitm {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: deeppink;
+}
+
+li:hover {
+    border-bottom: 5px solid deeppink;
+}
+
+/* Links */
+#hitm {
+    text-decoration: none;
+    color: deeppink;
+    padding: 10px 30px;
+}
+
+/* Search Bar */
+input[type=text] {
+    width: 200px;
+    padding: 3px 3px 3px 35px;
+    color: red;
+    background: gainsboro url("search_icon.png") no-repeat 4px 2px;
+    background-size: 25px;
+    border: none;
+    outline: none;
+    transition: width .3s ease;
+}
+
+input[type=text]:focus {
+    width: 400px;
+}
