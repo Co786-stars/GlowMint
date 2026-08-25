@@ -237,21 +237,32 @@ How to lik javascript file in html?
 - You can link a JavaScript file in an HTML document using the <script> tag with the src attribute. For example:
   <script src="path/to/yourfile.js"></script>
 
-Where is the place to link javascript file in html?
-- You can link a JavaScript file in the <head> section or just before the closing </body> tag of your HTML document. 
-  Placing it before </body> is often preferred to ensure that the HTML content loads before the script runs.
+
+  
+Where to link a JavaScript file in HTML:
+- You can link a JavaScript file in the <head> section or just before the closing </body> tag of your HTML document.
+- Placing it before </body> is often preferred because it ensures the HTML content loads before the script runs.
+- If the JS link is placed inside the <head>, we should use defer keword to ensure it loads properly.
+
 
 - Example where we can link javascript file in html:
-  -------------------------------------------------
+  -------------------------------------------------------------
+  Modern way (recommended) — place script in <head> with defer:
   <head>
-    <script src="path/to/yourfile.js"></script>
+    <script src="path/to/yourfile.js" defer></script>
   </head>
-  ------------------------------------------------
+  -------------------------------------------------------------
+  Traditional way — place script at the end of <body>:
   <body>
     <!-- HTML content -->
     <script src="path/to/yourfile.js"></script>
   </body>
-  -------------------------------------------------
+  -------------------------------------------------------------
+
+  Summary of where scripts are placed:
+  End of <body>              Yes      Yes   Safe, traditional method
+  <head> with defer          Yes      Yes   Modern best practice
+  <head> without defer       Yes      No    Blocks page loading
 
 
 How to clear Tracking Prevention Console Message/Warnings when running JavaScript files locally?
