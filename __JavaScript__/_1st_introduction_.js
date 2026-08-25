@@ -246,24 +246,24 @@ Where to link a JavaScript file in HTML:
 
 
 - Example where we can link javascript file in html:
-  -------------------------------------------------------------
+--------------------------------------------------------------------------
   Modern way (recommended) — place script in <head> with defer:
   <head>
     <script src="path/to/yourfile.js" defer></script>
   </head>
-  -------------------------------------------------------------
+--------------------------------------------------------------------------
   Traditional way — place script at the end of <body>:
   <body>
     <!-- HTML content -->
     <script src="path/to/yourfile.js"></script>
   </body>
-  -------------------------------------------------------------
+--------------------------------------------------------------------------
 
   Summary of where scripts are placed:
   End of <body>              Yes      Yes   Safe, traditional method
   <head> with defer          Yes      Yes   Modern best practice
   <head> without defer       Yes      No    Blocks page loading
-
+--------------------------------------------------------------------------
 
 How to clear Tracking Prevention Console Message/Warnings when running JavaScript files locally?
 - In some browsers like Safari and Firefox, you might see a warning in the console about "Tracking Prevention" 
