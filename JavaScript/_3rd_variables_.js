@@ -46,7 +46,23 @@ Variables naming rules :
     var myVariable = 10;
     let another_variable = 20;
     const $constantValue = 30;
+
+
+Note: Difference Between null and undefined ? 
+undefined means a variable has been declared, but no value has been assigned to it. JavaScript automatically assigns undefined when a value is missing or has not been assigned.
+null means the variable is intentionally assigned no value. The programmer explicitly assigns null to indicate that the value is empty or intentionally absent
+
+let a;
+console.log(a); // undefined
+
+let b = null;
+console.log(b); // null
+
+undefined → Value is not assigned
+null      → Value is intentionally empty
+
 */
+
 
 
 
@@ -87,6 +103,13 @@ console.log(anothervar); // ❌ error will be generate here because anothervar i
 
 
 
+// Note: -
+// undefined or null
+let v1, v2;
+v2 = null;
+console.log(v1); // undefined → variable declared but no value assigned
+console.log(v2); // null → intentionally assigned empty value
+
 
 /*
 EXTAR NOTE : -
@@ -97,4 +120,5 @@ EXTAR NOTE : -
 - In strict mode, if you try to assign a value to a variable that hasn't been declared 
   with var, let, or const, it will throw an error.
 */
+
 

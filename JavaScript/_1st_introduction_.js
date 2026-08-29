@@ -2,6 +2,7 @@
 Introduction to JavaScript :-
 - JavaScript started as a simple browser scripting language but has grown into a versatile, standalone language powering 
   both front-end and back-end development through engines like V8 and platforms like Node.js.
+- JavaScript is dynamically typed language because variables don’t have types — values do.
 
 Extra Intro Detail of js :-
 - JavaScript is not only for browsers—it can run on servers, databases (like MongoDB shell), mobile apps, and even IoT devices.
