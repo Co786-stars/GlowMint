@@ -201,6 +201,15 @@ console.log("_next_ value _x", _x); // 12
 
 // EXTRA---------------EXTRA---------EXTRA---------EXTRA---------EXTRA------------EXTRA-------EXTRA--------
 /*
+
+Comparision operator difference : -
+== → compares only value, not datatype
+=== → compares value + datatype (strict)
+!= → value not equal
+!== → value or datatype not equal
+> < >= <= → numeric comparisons
+
+
 - Compare loose equality (==) and strict equality (===) operators in JavaScript with examples?
    loose Equality (==) is known as equality operator/equal to
    strict Equality (===) is known as identity operator/ strict equal to
