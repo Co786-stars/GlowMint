@@ -107,5 +107,9 @@ let p = 20;
 let chk = p === q
 console.log("cond1 && cond2 : ", q==p && chk);
 console.log("cond1 or cond2 : ", q==p || p>q);
-console.log("!cond1 > con2 : ", !(q<p)) //return false but real value is true 
+console.log("!cond1 > con2 : ", !(q<p)) //return false but real value is true
 
+
+
+
+// //conditional statment
