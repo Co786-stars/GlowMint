@@ -113,3 +113,5 @@ console.log("!cond1 > con2 : ", !(q<p)) //return false but real value is true
 
 
 // //conditional statment
+
+
