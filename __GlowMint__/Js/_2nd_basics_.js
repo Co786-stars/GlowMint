@@ -25,5 +25,7 @@ Important note:
   is where the messages from console.log() appear. Regular visitors to the site do not see it.
 
 */
-alert("Hello world");
+alert("Hello world"); // alert create one time popup
+prompt("Hellow world") // prompt create one time popup to get the basic input.
+
 

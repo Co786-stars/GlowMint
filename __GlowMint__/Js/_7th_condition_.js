@@ -68,3 +68,22 @@ if (a == "wizard") {
     console.log("You are a ", a);
 }
 
+
+// switch case 
+let match = 15
+switch (match) {
+    case 10:
+        console.log("Day 10");
+        break;
+    case 15:
+        console.log("Day 15");
+        break;
+    case 30:
+        console.log("Day 30");
+        break;
+    default:
+        console.log("Invalid Day");
+
+};
+
+
