@@ -216,6 +216,43 @@ for (let match = 1; match <= 30; match++) {
     }
 }
 
-let xyz = prompt("Hello World");
-console.log(xyz);
+// let xyz = prompt("Hello World");
+// console.log(xyz);
+
+
+
+// check the number is divisibal of 5 or not ?
+let num = Number(prompt("Enter the Number "));
+// console.log(num);
+if(num%5 === 0) {
+  console.log("Yes the number ", num, "is divisibal by 5");
+} else {
+  console.log("No the number ", num, "is not divisible by 5");
+};
+
+
+// wap which we can gives grade to students according to their score 
+// 00 to 29, F
+// 30 to 49, E
+// 50 to 59, D
+// 60 to 69, C
+// 70 to 79, B
+// 80 to 100,A
+let total_maks;
+total_marks = Number(prompt("Enter the total marks : "));
+if (total_marks >= 0 && total_marks <=29) {
+    console.log("Total Marks is ", total_marks, "F");
+} else if (total_marks >= 30 && total_marks <= 49) {
+    console.log("Total Marks is ", total_marks, "E");
+} else if (total_marks >= 50 && total_marks <= 59) {
+    console.log("Total Marks is ", total_marks, "D");
+} else if (total_marks >= 60 && total_marks <= 69) {
+    console.log("Total Marks is ", total_marks, "C");
+} else if (total_marks >= 70 && total_marks <= 79) {
+    console.log("Total Marks is ", total_marks, "B");
+} else if (total_marks >= 80 && total_marks <= 100) {
+    console.log("Total Marks is ", total_marks, "A");
+} else {
+    console.log("Invalid number shoud be b/w 0 to 100");
+}
 

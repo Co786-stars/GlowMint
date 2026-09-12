@@ -46,9 +46,18 @@ Types of conditional statements in JavaScript:
         }
 
 summary:
-- Conditions in JavaScript allow you to control the flow of your program by executing different blocks of code based on whether certain conditions are true or false.
-- The primary conditional statements in JavaScript are if, else if, else, and switch.
+- Conditions in JavaScript allow you to control the flow of your program by executing different blocks of code based on whether certain conditions are true or false. 
+- The primary conditional statements in JavaScript are: if, else if, else, and switch. 
 - Use if to execute code when a condition is true, else to execute code when it is false, else if to check multiple conditions, and switch for multiple possible values of a variable.
+
+Additional points:
+- Conditions help your program make decisions dynamically.
+- They prevent unnecessary code execution and improve efficiency.
+- You can combine conditions using logical operators like &&, ||, and !.
+- Nested conditions allow deeper decision-making inside other conditions.
+- Switch is cleaner when checking many fixed values instead of multiple if-else blocks.
+- Proper use of conditions makes your code readable, structured, and easier to debug.
+
 
 Example:
 let age = 18;
@@ -63,13 +72,15 @@ Output: You just became an adult.
 
 */
 
+// examples
+
 let a = "wizard";
 if (a == "wizard") {
     console.log("You are a ", a);
 }
 
 
-// switch case 
+// switch case : concept
 let match = 15
 switch (match) {
     case 10:
@@ -86,4 +97,40 @@ switch (match) {
 
 };
 
+
+// if, else if, else:concept
+// check the number is divisibal of 5 or not ?
+let num = Number(prompt("Enter the Number "));
+// console.log(num);
+if(num%5 === 0) {
+  console.log("Yes the number ", num, "is divisibal by 5");
+} else {
+  console.log("No the number ", num, "is not divisible by 5");
+};
+
+
+// wap which we can gives grade to students according to their score 
+// 00 to 29, F
+// 30 to 49, E
+// 50 to 59, D
+// 60 to 69, C
+// 70 to 79, B
+// 80 to 100,A
+let total_maks;
+total_marks = Number(prompt("Enter the total marks : "));
+if (total_marks >= 0 && total_marks <=29) {
+    console.log("Total Marks is ", total_marks, "F");
+} else if (total_marks >= 30 && total_marks <= 49) {
+    console.log("Total Marks is ", total_marks, "E");
+} else if (total_marks >= 50 && total_marks <= 59) {
+    console.log("Total Marks is ", total_marks, "D");
+} else if (total_marks >= 60 && total_marks <= 69) {
+    console.log("Total Marks is ", total_marks, "C");
+} else if (total_marks >= 70 && total_marks <= 79) {
+    console.log("Total Marks is ", total_marks, "B");
+} else if (total_marks >= 80 && total_marks <= 100) {
+    console.log("Total Marks is ", total_marks, "A");
+} else {
+    console.log("Invalid number shoud be b/w 0 to 100");
+}
 
